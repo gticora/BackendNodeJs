@@ -7,10 +7,17 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": ["api", "express", "mongodb", "formulario"],
+  "keywords": [
+    "api",
+    "express",
+    "mongodb",
+    "formulario"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "awilix": "^12.0.3",
+    "awilix-express": "^9.0.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
